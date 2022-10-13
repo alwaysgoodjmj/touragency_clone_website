@@ -32,6 +32,8 @@ $(function () {
 
         $('section').each(function(index){
             if( scroll >= pos[index] + base_line ){
+
+                
                 $('section').eq(index).addClass('on')
             }
         });
